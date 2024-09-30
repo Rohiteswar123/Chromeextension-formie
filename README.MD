@@ -1,0 +1,2 @@
+[USE THIS LINK](https://www.theseotoday.com/2022/09/how-to-add-extensions-to-chrome.html)
+This is an extension which requires your browser permissions it observes all the forms which you fill by using your browser and it will store the details so that you could use it later 

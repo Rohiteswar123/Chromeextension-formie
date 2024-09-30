@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "FormBot",
+  "version": "1.1",
+  "description": "Copilot for filling forms",
+  "permissions": ["storage", "contextMenus", "sidePanel"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/FormBot.jpg",
+    "128": "icons/FormBot.jpg"
+  },
+  "action": {
+    "default_icon": "icons/FormBot.jpg",
+    "default_popup": "popup.html",
+    "default_title": "Form Data"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html",
+    "default_width": 300
+  }
+}
